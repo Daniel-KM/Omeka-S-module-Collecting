@@ -209,7 +209,7 @@ class CollectingFormRepresentation extends AbstractEntityRepresentation
                                 $name = rtrim($name, '[]');
                             }
                             $resourceQuery = [];
-                            parse_str(ltrim($prompt->resourceQuery(), '?'), $resourceQuery);
+                            parse_str(ltrim($prompt->resourceQuery(), "? \t\n\r\0\x0B"), $resourceQuery);
                             $element = new Element\PromptItem($name);
                             if ($isMultiple) {
                                 $element
