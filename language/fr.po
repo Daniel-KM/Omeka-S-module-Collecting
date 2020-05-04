@@ -1,23 +1,28 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Daniel Berthereau <Daniel.github@Berthereau.net>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Laurent Thomas, 2019
+# Daniel Berthereau <daniel.transifex@berthereau.net>, 2020
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 15:52-0400\n"
-"PO-Revision-Date: 2019-12-16 00:00+0100\n"
-"Last-Translator: Daniel Berthereau <Daniel.fr@Berthereau.net>\n"
-"Language-Team: French <kde-i18n-doc@kde.org>\n"
-"Language: fr\n"
+"POT-Creation-Date: 2020-05-01 16:06-0400\n"
+"PO-Revision-Date: 2017-09-14 20:14+0000\n"
+"Last-Translator: Daniel Berthereau <daniel.transifex@berthereau.net>, 2020\n"
+"Language-Team: French (https://www.transifex.com/omeka/teams/14184/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.2.4\n"
 
-#: Module.php:138
+#: Module.php:268
 msgid "Click here to view the collected data."
 msgstr "Cliquer ici pour voir les données collectées."
 
@@ -40,7 +45,7 @@ msgstr "[privé]"
 msgid "[unknown item]"
 msgstr "[contenu inconnu]"
 
-#: src/Controller/Site/IndexController.php:269
+#: src/Controller/Site/IndexController.php:274
 msgid "Thank you for your submission"
 msgstr "Merci de votre contribution"
 
@@ -53,79 +58,79 @@ msgstr "Éditer le formulaire de collecte : \"%s\""
 msgid "Add collecting form"
 msgstr "Ajouter un formulaire de collecte"
 
-#: view/collecting/site-admin/form/form.phtml:32
+#: view/collecting/site-admin/form/form.phtml:33
 msgid "Undo delete"
 msgstr "Annuler la suppression"
 
-#: view/collecting/site-admin/form/form.phtml:51
-#: view/collecting/site-admin/form/show.phtml:38
+#: view/collecting/site-admin/form/form.phtml:53
+#: view/collecting/site-admin/form/show.phtml:39
 msgid "Prompts"
 msgstr "Champs"
 
-#: view/collecting/site-admin/form/form.phtml:53
+#: view/collecting/site-admin/form/form.phtml:55
 msgid "Add prompt"
 msgstr "Ajouter un champ"
 
-#: view/collecting/site-admin/form/form.phtml:73
+#: view/collecting/site-admin/form/form.phtml:75
 #: view/common/collecting-item-section.phtml:10
 msgid "Prompt"
 msgstr "Champ"
 
-#: view/collecting/site-admin/form/form.phtml:76
+#: view/collecting/site-admin/form/form.phtml:78
 msgid "Prompt type"
 msgstr "Type de champ"
 
-#: view/collecting/site-admin/form/form.phtml:78
+#: view/collecting/site-admin/form/form.phtml:80
 msgid "Select a prompt type"
 msgstr "Choisir un type de champ"
 
-#: view/collecting/site-admin/form/form.phtml:91
+#: view/collecting/site-admin/form/form.phtml:93
 msgid "Media type"
 msgstr "Type de média"
 
-#: view/collecting/site-admin/form/form.phtml:93
+#: view/collecting/site-admin/form/form.phtml:95
 msgid "Select a media type"
 msgstr "Choisir un type de média"
 
-#: view/collecting/site-admin/form/form.phtml:101
+#: view/collecting/site-admin/form/form.phtml:103
 msgid "Prompt text"
 msgstr "Label du champ"
 
-#: view/collecting/site-admin/form/form.phtml:106
+#: view/collecting/site-admin/form/form.phtml:108
 msgid "Input type"
 msgstr "Type de saisie"
 
-#: view/collecting/site-admin/form/form.phtml:108
+#: view/collecting/site-admin/form/form.phtml:110
 msgid "Select an input type"
 msgstr "Choisir un type de saisie"
 
-#: view/collecting/site-admin/form/form.phtml:112
+#: view/collecting/site-admin/form/form.phtml:114
 msgid "(unavailable)"
 msgstr "(indisponible)"
 
-#: view/collecting/site-admin/form/form.phtml:120
+#: view/collecting/site-admin/form/form.phtml:122
 msgid "Select menu options"
 msgstr "Indiquer les options du menu"
 
-#: view/collecting/site-admin/form/form.phtml:125
+#: view/collecting/site-admin/form/form.phtml:127
 msgid "Filter query"
 msgstr "Requête de filtre"
 
-#: view/collecting/site-admin/form/form.phtml:125
+#: view/collecting/site-admin/form/form.phtml:127
 msgid "Filter resources by entering an advanced search URL query string."
 msgstr ""
 "Filtrer les ressources en indiquant la chaîne correspondant aux arguments "
 "d’une url de recherche avancée."
 
-#: view/collecting/site-admin/form/form.phtml:132
+#: view/collecting/site-admin/form/form.phtml:134
 msgid "Custom vocab"
 msgstr "Vocabulaire personnalisé"
 
-#: view/collecting/site-admin/form/form.phtml:134
+#: view/collecting/site-admin/form/form.phtml:136
 msgid "Select a custom vocab"
 msgstr "Choisir un vocabulaire personnalisé"
 
-#: view/collecting/site-admin/form/form.phtml:147
+#: view/collecting/site-admin/form/form.phtml:149
 msgid "Add changes"
 msgstr "Valider les modifications"
 
@@ -142,30 +147,30 @@ msgstr "Ajouter un nouveau formulaire"
 msgid "This site has no collecting forms."
 msgstr "Ce site ne dispose pas de formulaire de collecte."
 
-#: view/collecting/site-admin/form/show.phtml:2
+#: view/collecting/site-admin/form/show.phtml:3
 #: view/collecting/site-admin/item/index.phtml:3
 #, php-format
 msgid "Collecting Form: “%s”"
 msgstr "Formulaire de collecte : \"%s\""
 
-#: view/collecting/site-admin/form/show.phtml:5
+#: view/collecting/site-admin/form/show.phtml:6
 msgid "[none]"
 msgstr "[aucun]"
 
-#: view/collecting/site-admin/form/show.phtml:10
+#: view/collecting/site-admin/form/show.phtml:11
 msgid "Edit form"
 msgstr "Éditer le formulaire"
 
-#: view/collecting/site-admin/form/show.phtml:15
+#: view/collecting/site-admin/form/show.phtml:16
 #: view/collecting/site-admin/item/index.phtml:7
 msgid "Back to collecting forms list"
 msgstr "Revenir à la liste des formulaires de collecte"
 
-#: view/collecting/site-admin/form/show.phtml:28
+#: view/collecting/site-admin/form/show.phtml:29
 msgid "Anonymity Type"
 msgstr "Type d’anonymat"
 
-#: view/collecting/site-admin/form/show.phtml:63
+#: view/collecting/site-admin/form/show.phtml:64
 msgid "This form has no prompts."
 msgstr "Ce formulaire ne dispose d’aucune entrée."
 
@@ -348,8 +353,7 @@ msgstr ""
 
 #: src/Entity/CollectingForm.php:92
 msgid "“User Public” and “User Name” inputs are private"
-msgstr ""
-"Les valeurs \"Utilisateur public“ et \"Nom d’utilisateur\" sont privées"
+msgstr "Les valeurs \"Utilisateur public“ et \"Nom d’utilisateur\" sont privées"
 
 #: src/Site/BlockLayout/Collecting.php:18 config/module.config.php:80
 msgid "Collecting"
@@ -483,7 +487,8 @@ msgstr "Mise à jour des statuts effectuée"
 
 #: src/Form/CollectingForm.php:28
 msgid "Assign all items created by this form to this item set."
-msgstr "Assigner tous les contenus créés par ce formulaire à cette collection."
+msgstr ""
+"Assigner tous les contenus créés par ce formulaire à cette collection."
 
 #: src/Form/CollectingForm.php:29
 msgid "Select Item Set..."
@@ -497,8 +502,8 @@ msgstr "Type d’anonymat"
 msgid ""
 "Control how to treat “User Public” and “User Name” input on public pages."
 msgstr ""
-"Permet de contrôler comment afficher les valeurs \"Info utilisateur publique"
-"\" et \"Nom d'utilisateur\" sur les pages publiques."
+"Permet de contrôler comment afficher les valeurs \"Info utilisateur "
+"publique\" et \"Nom d'utilisateur\" sur les pages publiques."
 
 #: src/Form/CollectingForm.php:48
 msgid "Success text"
@@ -516,6 +521,27 @@ msgstr "Label du mail"
 #: src/Form/CollectingForm.php:61
 msgid "Begin all submission emails with this text."
 msgstr "Commencer tous les emails de confirmation avec ce texte."
+
+#: Module.php:154
+msgid "Terms of service"
+msgstr "Termes et conditions"
+
+#: Module.php:155
+msgid ""
+"Enter the terms of service (TOS) for users who submit content to this site."
+msgstr ""
+"Indiquer les termes et conditions d’utilisation du service pour les "
+"utilisateurs qui déposent des contenus sur ce site."
+
+#: Module.php:165
+msgid "Email address"
+msgstr "Adresse mail"
+
+#: Module.php:166
+msgid "Enter an email address from which submission emails will be sent."
+msgstr ""
+"Indiquer l’adresse mail qui sera utilisée pour envoyer les mails après un "
+"dépôt."
 
 #: config/module.config.php:110
 msgid "Form Information"
