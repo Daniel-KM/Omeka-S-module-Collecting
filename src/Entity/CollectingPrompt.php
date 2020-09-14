@@ -128,6 +128,7 @@ class CollectingPrompt extends AbstractEntity
             'numeric:interval' => 'Numeric interval', // @translate
             'numeric:duration' => 'Numeric duration', // @translate
             'numeric:integer' => 'Numeric integer', // @translate
+            'thesaurus' => 'Thesaurus', // @translate
         ];
     }
 

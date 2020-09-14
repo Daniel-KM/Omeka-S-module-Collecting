@@ -229,6 +229,7 @@ class IndexController extends AbstractActionController
                     $propertyId = $prompt->property()->id();
                     switch ($inputType) {
                         case 'item':
+                        case 'thesaurus':
                             $itemData[$propertyTerm][] = [
                                 'type' => 'resource',
                                 'property_id' => $propertyId,
