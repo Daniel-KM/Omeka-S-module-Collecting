@@ -146,6 +146,7 @@ class CollectingFormRepresentation extends AbstractEntityRepresentation
         $collecting = $this->getViewHelper('collecting');
         $mediaTypes = $services->get('Collecting\MediaTypeManager');
         $api = $services->get('Omeka\ApiManager');
+        $translator = $this->getTranslator();
 
         $dataTypeManager = $services->get('Omeka\DataTypeManager');
         $suggesters = [];
@@ -214,7 +215,7 @@ class CollectingFormRepresentation extends AbstractEntityRepresentation
                             if ($isMultiple) {
                                 $element
                                     ->setEmptyOption('')
-                                    ->setAttribute('data-placeholder', 'Please choose one or more…'); // @translate
+                                    ->setAttribute('data-placeholder', $translator->translate('Please choose one or more…')); // @translate
                             } else {
                                 $element->setEmptyOption('Please choose one…'); // @translate
                             }
