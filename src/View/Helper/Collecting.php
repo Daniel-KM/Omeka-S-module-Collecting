@@ -121,6 +121,11 @@ class Collecting extends AbstractHelper
                     && ModuleManager::STATE_ACTIVE === $module->getState()
                     && Comparator::greaterThanOrEqualTo($module->getDb('version'), '1.2.0')
                 );
+            case 'thesaurus':
+                // Available when the Thesaurus module is active.
+                $module = $this->moduleManager->getModule('Thesaurus');
+                return $module
+                        && ModuleManager::STATE_ACTIVE === $module->getState();
             case 'value_suggest':
                 // Available when the ValueSuggest module is active.
                 $module = $this->moduleManager->getModule('ValueSuggest');

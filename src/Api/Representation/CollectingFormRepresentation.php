@@ -142,6 +142,7 @@ class CollectingFormRepresentation extends AbstractEntityRepresentation
             return $this->form; // build the form object only once
         }
 
+        /** @var \Collecting\View\Helper\Collecting $collecting */
         $url = $this->getViewHelper('Url');
         $collecting = $this->getViewHelper('collecting');
         $mediaTypes = $services->get('Collecting\MediaTypeManager');
@@ -231,6 +232,33 @@ class CollectingFormRepresentation extends AbstractEntityRepresentation
                                     ->setResourceValueOptions('items', function ($item) {
                                         return mb_substr($item->displayTitle(), 0, 80);
                                     }, $resourceQuery);
+                            }
+                            break;
+                        case 'thesaurus':
+                            if (!$collecting->inputTypeIsAvailable('thesaurus')) {
+                                continue 3;
+                            }
+                            $isSelect = true;
+                            if ($isMultiple) {
+                                $name = rtrim($name, '[]');
+                            }
+                            $thesaurusOptions = [];
+                            parse_str(ltrim($prompt->resourceQuery(), "? \t\n\r\0\x0B"), $thesaurusOptions);
+                            if (isset($thesaurusOptions) && is_numeric($thesaurusOptions)) {
+                                $thesaurusOptions = ['thesaurus' => ['term' => $thesaurusOptions]];
+                            }
+                            $thesaurusOptions['thesaurus']['options']['prepend_id'] = (bool) $prompt->selectOptions();
+                            $element = new Element\PromptThesaurus($name);
+                            $element
+                                ->setApiManager($api)
+                                ->setThesaurus($this->getServiceLocator()->get('ControllerPluginManager')->get('thesaurus'))
+                                ->setOptions($thesaurusOptions);
+                            if ($isMultiple) {
+                                $element
+                                    ->setEmptyOption('')
+                                    ->setAttribute('data-placeholder', $translator->translate('Please choose one or more…')); // @translate
+                            } else {
+                                $element->setEmptyOption('Please choose one…'); // @translate
                             }
                             break;
                         case 'custom_vocab':

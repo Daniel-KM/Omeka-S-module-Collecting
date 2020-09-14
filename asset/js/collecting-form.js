@@ -226,7 +226,7 @@ $(document).ready(function() {
         } else {
             selectOptionsSection.hide();
         }
-        if ('item' === inputType) {
+        if ('item' === inputType || 'thesaurus' === inputType) {
             resourceQuerySection.show();
             prependIdSection.show();
         } else {
@@ -302,7 +302,7 @@ $(document).ready(function() {
                     var selectOptions = prompt.find('.prompt-select-options').val();
                     $('#prompt-select-options').val(selectOptions).closest('.sidebar-section').show();
                 }
-                if ('item' === inputType) {
+                if ('item' === inputType || 'thesaurus' === inputType) {
                     var resourceQuery = prompt.find('.prompt-resource-query').val();
                     $('#prompt-resource-query').val(resourceQuery).closest('.sidebar-section').show();
                     var prependIdQuery = prompt.find('.prompt-prepend-id').val();
@@ -385,7 +385,7 @@ $(document).ready(function() {
                     alert('You must select an input type.');
                     return;
                 }
-                if ('item' === promptData['o-module-collecting:input_type']) {
+                if ('item' === promptData['o-module-collecting:input_type'] || 'thesaurus' === promptData['o-module-collecting:input_type']) {
                     // TODO Currently, the input value for item come from column select_options.
                     promptData['o-module-collecting:select_options'] = $('#prompt-prepend-id').prop('checked') ? '1' : null;
                 }
