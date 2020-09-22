@@ -298,7 +298,6 @@ info@example2.org', // @translate
                     ],
                 ],
             ]);
-        ;
     }
 
     /**
