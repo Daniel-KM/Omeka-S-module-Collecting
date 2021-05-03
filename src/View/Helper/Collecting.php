@@ -8,7 +8,7 @@ use Composer\Semver\Comparator;
 use Omeka\Api\Exception\BadRequestException;
 use Omeka\DataType\Manager as DataTypeManager;
 use Omeka\Module\Manager as ModuleManager;
-use Zend\View\Helper\AbstractHelper;
+use Laminas\View\Helper\AbstractHelper;
 
 class Collecting extends AbstractHelper
 {
@@ -137,6 +137,7 @@ class Collecting extends AbstractHelper
             case 'textarea':
             case 'select':
             case 'item':
+            case 'url':
                 // Native input types are always available.
                 return true;
             default:

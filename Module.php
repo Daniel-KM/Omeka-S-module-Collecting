@@ -3,19 +3,21 @@ namespace Collecting;
 
 use Collecting\Permissions\Acl;
 use Collecting\Permissions\Assertion\HasInputTextPermissionAssertion;
+use Collecting\Permissions\Assertion\HasSitePermissionAssertion;
+use Collecting\Permissions\Assertion\HasUserEmailPermissionAssertion;
 use Collecting\Permissions\Assertion\HasUserNamePermissionAssertion;
 use Composer\Semver\Comparator;
 use Omeka\Module\AbstractModule;
-use Omeka\Permissions\Assertion\HasSitePermissionAssertion;
+// use Omeka\Permissions\Assertion\HasSitePermissionAssertion as OmekaHasSitePermissionAssertion;
 use Omeka\Permissions\Assertion\IsSelfAssertion;
 use Omeka\Permissions\Assertion\OwnsEntityAssertion;
 use Omeka\Permissions\Assertion\SiteIsPublicAssertion;
-use Zend\EventManager\Event;
-use Zend\EventManager\SharedEventManagerInterface;
-use Zend\Form\Fieldset;
-use Zend\Mvc\MvcEvent;
-use Zend\Permissions\Acl\Assertion\AssertionAggregate;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\EventManager\Event;
+use Laminas\EventManager\SharedEventManagerInterface;
+use Laminas\Form\Fieldset;
+use Laminas\Mvc\MvcEvent;
+use Laminas\Permissions\Acl\Assertion\AssertionAggregate;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 class Module extends AbstractModule
 {
@@ -546,17 +548,41 @@ info@example2.org', // @translate
         );
 
         // Discrete data permissions.
+        $assertion = new AssertionAggregate;
+        $assertion->addAssertions([
+            new HasInputTextPermissionAssertion,
+            new HasSitePermissionAssertion('editor'),
+        ]);
+        $assertion->setMode(AssertionAggregate::MODE_AT_LEAST_ONE);
         $acl->allow(
             null,
             'Collecting\Entity\CollectingInput',
             'view-collecting-input-text',
-            new HasInputTextPermissionAssertion
+            $assertion
         );
+        $assertion = new AssertionAggregate;
+        $assertion->addAssertions([
+            new HasUserNamePermissionAssertion,
+            new HasSitePermissionAssertion('editor'),
+        ]);
+        $assertion->setMode(AssertionAggregate::MODE_AT_LEAST_ONE);
         $acl->allow(
             null,
             'Collecting\Entity\CollectingItem',
             'view-collecting-user-name',
-            new HasUserNamePermissionAssertion
+            $assertion
+        );
+        $assertion = new AssertionAggregate;
+        $assertion->addAssertions([
+            new HasUserEmailPermissionAssertion,
+            new HasSitePermissionAssertion('editor'),
+        ]);
+        $assertion->setMode(AssertionAggregate::MODE_AT_LEAST_ONE);
+        $acl->allow(
+             null,
+            'Collecting\Entity\CollectingItem',
+            'view-collecting-user-email',
+            $assertion
         );
     }
 

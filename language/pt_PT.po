@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Hong Zhang <zhangh@unlv.nevada.edu>, 2021
+# Daniel Alves <daniel_r_alves@hotmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,202 +13,203 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-21 11:43-0400\n"
 "PO-Revision-Date: 2017-09-14 20:14+0000\n"
-"Last-Translator: Hong Zhang <zhangh@unlv.nevada.edu>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/omeka/teams/14184/zh_CN/)\n"
+"Last-Translator: Daniel Alves <daniel_r_alves@hotmail.com>, 2020\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/omeka/teams/14184/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: Module.php:269
 msgid "Click here to view the collected data."
-msgstr "点击此处查看收集到的数据。"
+msgstr "Clique aqui para ver a informação recolhida."
 
 #: src/Api/Representation/CollectingFormRepresentation.php:290
 #, php-format
 msgid "I accept the %s"
-msgstr "我接受%s"
+msgstr "Eu aceito o %s"
 
 #: src/Api/Representation/CollectingFormRepresentation.php:293
 msgid "Terms of Service"
-msgstr "服务条款"
+msgstr "Termos de Serviço"
 
 #: src/Api/Representation/CollectingInputRepresentation.php:72
 #: src/Api/Representation/CollectingItemRepresentation.php:125
 #: src/Api/Representation/CollectingItemRepresentation.php:140
 msgid "[private]"
-msgstr "【私密的】"
+msgstr "[privado]"
 
 #: src/Api/Representation/CollectingInputRepresentation.php:79
 msgid "[unknown item]"
-msgstr "【未知条目】"
+msgstr "[item desconhecido]"
 
 #: src/Controller/Site/IndexController.php:282
 msgid "Thank you for your submission"
-msgstr "感谢您的提交"
+msgstr "Obrigado pela submissão"
 
 #: view/collecting/site-admin/form/form.phtml:9
 #, php-format
 msgid "Edit collecting form: “%s”"
-msgstr "编辑收藏表单：“%s”"
+msgstr "Editar o formulário de recolha: \"%s\""
 
 #: view/collecting/site-admin/form/form.phtml:10
 msgid "Add collecting form"
-msgstr "添加收藏表单"
+msgstr "Adicionar formulário de recolha"
 
 #: view/collecting/site-admin/form/form.phtml:33
 msgid "Undo delete"
-msgstr "撤销删除"
+msgstr "Anular eliminação"
 
 #: view/collecting/site-admin/form/form.phtml:53
 #: view/collecting/site-admin/form/show.phtml:39
 msgid "Prompts"
-msgstr "提示"
+msgstr "Campos"
 
 #: view/collecting/site-admin/form/form.phtml:55
 msgid "Add prompt"
-msgstr "添加提示"
+msgstr "Adicionar campo"
 
 #: view/collecting/site-admin/form/form.phtml:75
 #: view/common/collecting-item-section.phtml:10
 msgid "Prompt"
-msgstr "提示"
+msgstr "Campo"
 
 #: view/collecting/site-admin/form/form.phtml:78
 msgid "Prompt type"
-msgstr "提示类型"
+msgstr "Tipo de campo"
 
 #: view/collecting/site-admin/form/form.phtml:80
 msgid "Select a prompt type"
-msgstr "选择一个提示类型"
+msgstr "Seleccionar tipo de campo"
 
 #: view/collecting/site-admin/form/form.phtml:93
 msgid "Media type"
-msgstr "媒介类型"
+msgstr "Tipo de media"
 
 #: view/collecting/site-admin/form/form.phtml:95
 msgid "Select a media type"
-msgstr "选择一个媒介类型"
+msgstr "Seleccionar tipo de media"
 
 #: view/collecting/site-admin/form/form.phtml:103
 msgid "Prompt text"
-msgstr "提示文本"
+msgstr "Texto do aviso"
 
 #: view/collecting/site-admin/form/form.phtml:108
 msgid "Input type"
-msgstr "输入类型"
+msgstr "Tipo de entrada"
 
 #: view/collecting/site-admin/form/form.phtml:110
 msgid "Select an input type"
-msgstr "选择一个输入类型"
+msgstr "Seleccionar tipo de entrada"
 
 #: view/collecting/site-admin/form/form.phtml:114
 msgid "(unavailable)"
-msgstr "（不可用）"
+msgstr "(não disponível)"
 
 #: view/collecting/site-admin/form/form.phtml:122
 msgid "Select menu options"
-msgstr "选择菜单选项"
+msgstr "Seleccionar opções de menu"
 
 #: view/collecting/site-admin/form/form.phtml:127
 msgid "Filter query"
-msgstr "过滤查询"
+msgstr "Filtrar a pesquisa"
 
 #: view/collecting/site-admin/form/form.phtml:127
 msgid "Filter resources by entering an advanced search URL query string."
-msgstr "输入一个高级搜索URL查询字符串以过滤资源。"
+msgstr ""
+"Filtrar os recursos introduzindo uma URL com parâmetros de pesquisa avançada"
 
 #: view/collecting/site-admin/form/form.phtml:134
 msgid "Custom vocab"
-msgstr "定制词汇"
+msgstr "Vocabulário personalizado"
 
 #: view/collecting/site-admin/form/form.phtml:136
 msgid "Select a custom vocab"
-msgstr "选择定制词汇"
+msgstr "Seleccionar vocabulário personalizado"
 
 #: view/collecting/site-admin/form/form.phtml:149
 msgid "Add changes"
-msgstr "添加更改"
+msgstr "Adicionar alterações"
 
 #: view/collecting/site-admin/form/index.phtml:2
 msgid "Collecting Forms"
-msgstr "收藏表单"
+msgstr "Formulários de recolha"
 
 #: view/collecting/site-admin/form/index.phtml:7
 msgid "Add new form"
-msgstr "添加新表单"
+msgstr "Adicionar novo formulário"
 
 #: view/collecting/site-admin/form/index.phtml:55
 #: view/common/block-layout/collecting-block-form.phtml:5
 msgid "This site has no collecting forms."
-msgstr "该网站没有收藏表单"
+msgstr "Este site não tem formulários de recolha."
 
 #: view/collecting/site-admin/form/show.phtml:3
 #: view/collecting/site-admin/item/index.phtml:3
 #, php-format
 msgid "Collecting Form: “%s”"
-msgstr "收藏表单：“%s”"
+msgstr "Formulário de Recolha: \"%s\""
 
 #: view/collecting/site-admin/form/show.phtml:6
 msgid "[none]"
-msgstr "【无】"
+msgstr "[nenhum]"
 
 #: view/collecting/site-admin/form/show.phtml:11
 msgid "Edit form"
-msgstr "编辑表单"
+msgstr "Editar formulário"
 
 #: view/collecting/site-admin/form/show.phtml:16
 #: view/collecting/site-admin/item/index.phtml:7
 msgid "Back to collecting forms list"
-msgstr "返回收藏表单列表"
+msgstr "Regressar à lista de formulários de recolha"
 
 #: view/collecting/site-admin/form/show.phtml:29
 msgid "Anonymity Type"
-msgstr "匿名类型"
+msgstr "Tipo de anonimato"
 
 #: view/collecting/site-admin/form/show.phtml:64
 msgid "This form has no prompts."
-msgstr "该表单没有提示符。"
+msgstr "Este formulário não tem avisos."
 
 #: view/collecting/site-admin/item/index.phtml:16
 #: view/collecting/site-admin/item/index.phtml:76
 msgid "Needs review"
-msgstr "需要审核"
+msgstr "Precisa revisão"
 
 #: view/collecting/site-admin/item/index.phtml:17
 msgid "Reviewed: public"
-msgstr "已审核：公开的"
+msgstr "Revisto: público"
 
 #: view/collecting/site-admin/item/index.phtml:18
 msgid "Reviewed: private"
-msgstr "已审核：私密的"
+msgstr "Revisto: privado"
 
 #: view/collecting/site-admin/item/index.phtml:29
 #: view/collecting/site-admin/item/index.phtml:76
 msgid "Reviewed"
-msgstr "已审核"
+msgstr "Revisto"
 
 #: view/collecting/site-admin/item/index.phtml:41
 msgid "Update statuses"
-msgstr "更新状态"
+msgstr "Actualizar estados"
 
 #: view/collecting/site-admin/item/index.phtml:50
 msgid "Reviewed By"
-msgstr "审核员："
+msgstr "Revisto por"
 
 #: view/collecting/site-admin/item/index.phtml:64
 msgid "[not reviewed]"
-msgstr "【未审核】"
+msgstr "[não revisto]"
 
 #: view/collecting/site-admin/item/index.phtml:96
 msgid "No items found."
-msgstr "没有找到任何条目。"
+msgstr "Não foram encontrados itens."
 
 #: view/collecting/site-admin/item/show-details.phtml:19
 #: view/common/collecting-item-section.phtml:35
 msgid "User name"
-msgstr "用户名"
+msgstr "Nome do utilizador"
 
 #: view/collecting/site-admin/item/show-details.phtml:22
 #: view/collecting/site-admin/item/show-details.phtml:29
@@ -217,316 +218,329 @@ msgstr "用户名"
 #: view/common/collecting-item-section.phtml:45
 #: view/common/collecting-item-section.phtml:52
 msgid "[not asked]"
-msgstr "【未询问】"
+msgstr "[não requerido]"
 
 #: view/collecting/site-admin/item/show-details.phtml:26
 #: view/common/collecting-item-section.phtml:42
 msgid "User email"
-msgstr "用户电邮地址"
+msgstr "Email do utilizador"
 
 #: view/collecting/site-admin/item/show-details.phtml:33
 #: view/common/collecting-item-section.phtml:49
 msgid "Anonymous?"
-msgstr "匿名？"
+msgstr "Anónimo?"
 
 #: view/collecting/site/index/item-show.phtml:2
 #, php-format
 msgid "Collected Item: “%s”"
-msgstr "收藏的条目：“%s”"
+msgstr "Item recolhido: \"%s\""
 
 #: view/collecting/site/index/item-show.phtml:5
 msgid "Click here to view the corresponding item."
-msgstr "点击此处查看相应条目。"
+msgstr "Clique para ver o item correspondente."
 
 #: view/collecting/site/index/success.phtml:5
 msgid "Form successfully submitted!"
-msgstr "表单已成功提交！"
+msgstr "Formulário submetido com sucesso!"
 
 #: view/common/block-layout/collecting-block-form.phtml:2
 msgid "Select which collecting forms the user can complete:"
-msgstr "选择哪个收藏表单可以让用户填写："
+msgstr ""
+"Seleccionar qual dos formulários de recolha o utilizador pode completar:"
 
 #: view/common/block-layout/collecting-block-multiple.phtml:3
 msgid "Select a form..."
-msgstr "选择一个表单 ......"
+msgstr "Seleccionar um formulário..."
 
 #: view/common/collecting-item-citation.phtml:6
 msgid "[anonymous user]"
-msgstr "【匿名用户】"
+msgstr "[utilizador anónimo]"
 
 #: view/common/collecting-item-citation.phtml:9
 #, php-format
 msgid ""
 "This item was submitted on %s by %s using the form “%s” on the site “%s”: %s"
-msgstr "该条目于%s由%s使用表单“%s”在网站“%s”：%s提交"
+msgstr ""
+"Este item foi submetido em %s por %s usando o formulário \"%s\" do site "
+"\"%s\": %s"
 
 #: view/common/collecting-item-section.phtml:3
 msgid "Collected Inputs"
-msgstr "收藏的输入"
+msgstr "Dados recolhidos"
 
 #: view/common/collecting-item-section.phtml:11
 msgid "User Input"
-msgstr "用户输入"
+msgstr "Dados do utilizador"
 
 #: view/common/collecting-item-section.phtml:33
 msgid "User Information"
-msgstr "用户信息"
+msgstr "Informação do utilizador"
 
 #: view/common/collecting-item-section.phtml:61
 msgid "Public citation"
-msgstr "公开引用"
+msgstr "Citação pública"
 
 #: src/Form/CollectingForm.php:28
 msgid "Assign all items created by this form to this item set."
-msgstr "把该表单创建的所有条目分配给该条目集。"
+msgstr ""
+"Associar todos os itens criados por este formulário a este conjunto de itens"
 
 #: src/Form/CollectingForm.php:29
 msgid "Select Item Set..."
-msgstr "选择条目集 ......"
+msgstr "Seleccionar conjunto de itens..."
 
 #: src/Form/CollectingForm.php:39
 msgid "Anonymity type"
-msgstr "匿名类型"
+msgstr "Tipo de anonimato"
 
 #: src/Form/CollectingForm.php:40
 msgid ""
 "Control how to treat “User Public” and “User Name” input on public pages."
-msgstr "在公共页面上控制如何对待“用户是公开的”和“用户名称”输入。"
+msgstr ""
+"Controlar como usar os dados \"Utilizador público\" e \"Nome do utilizador\""
+" nas páginas públicas."
 
 #: src/Form/CollectingForm.php:48
 msgid "Success text"
-msgstr "成功文本"
+msgstr "Mensagem de sucesso"
 
 #: src/Form/CollectingForm.php:49
 msgid "Display this text after a user successfully submits a form."
-msgstr "用户成功提交表单后显示该文本。"
+msgstr ""
+"Mostrar este texto depois de um utilizador submeter um formulário com "
+"sucesso."
 
 #: src/Form/CollectingForm.php:60
 msgid "Email text"
-msgstr "电子邮件文本"
+msgstr "Mensagem de email"
 
 #: src/Form/CollectingForm.php:61
 msgid "Begin all submission emails with this text."
-msgstr "所有提交电邮都以此文本开头。"
+msgstr "Iniciar todos os emails de submissão com este texto."
 
 #: src/Api/Adapter/CollectingItemAdapter.php:132
 msgid "A collecting item must be assigned an item on creation."
-msgstr "收藏条目在创建时就必须指定一个条目。"
+msgstr "Um item recolhido tem de ser associado a um item quando criado."
 
 #: src/Api/Adapter/CollectingItemAdapter.php:135
 msgid "A collecting item must be assigned a form on creation."
-msgstr "收藏条目在创建时就必须指定一个表单。"
+msgstr "Um item recolhido tem de ser associado a um formulário quando criado."
 
 #: src/Api/Adapter/CollectingItemAdapter.php:139
 msgid "A collecting input must be assigned a prompt on creation."
-msgstr "收藏输入在创建时就必须指定一个提示。"
+msgstr "Um dado recolhido tem de ser associado a um campo quando criado."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:56
 msgid "A collecting form must be assigned a site on creation."
-msgstr "收藏表单在创建时就必须指定一个网站。"
+msgstr "Um formulário de recolha deve ter um site associado ao ser criado."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:193
 msgid "A property prompt must have a property."
-msgstr "属性提示必须有属性。"
+msgstr "Um campo de propriedade tem de ter uma propriedade."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:196
 msgid "A property prompt must have an input type."
-msgstr "属性提示必须有输入类型。"
+msgstr "Um campo de propriedade tem de ter um tipo de dados."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:201
 #: src/Api/Adapter/CollectingFormAdapter.php:222
 #: src/Api/Adapter/CollectingFormAdapter.php:235
 #: src/Api/Adapter/CollectingFormAdapter.php:248
 msgid "A custom_vocab input type must have a custom vocab."
-msgstr "custom_vocab输入类型必须有定制词汇。"
+msgstr "Um tipo de dados vocab_perso tem de ter um vocabulário personalizado."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:206
 msgid "A media prompt must have text."
-msgstr "媒体提示必须有文本。"
+msgstr "Um campo de media tem de ter texto."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:209
 msgid "A media prompt must have a media type."
-msgstr "媒体提示必须有媒体类型。"
+msgstr "Um campo de media tem de ter um tipo de media."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:214
 msgid "An input prompt must have text."
-msgstr "输入提示必须有文本。"
+msgstr "Um campo de dados tem de ter texto."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:217
 msgid "An input prompt must have an input type."
-msgstr "输入提示必须有输入类型。"
+msgstr "Um campo de dados tem de ter um tipo de dados."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:227
 msgid "A user_private prompt must have text."
-msgstr "user_private提示必须有文本。"
+msgstr "Um campo util_priv tem de ter texto."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:230
 msgid "A user_private prompt must have an input type."
-msgstr "user_private提示必须有输入类型。"
+msgstr "Um campo util_priv tem de ter um tipo de dados."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:240
 msgid "A user_public prompt must have text."
-msgstr "user_public提示必须有文本。"
+msgstr "Um campo util_public tem de ter texto."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:243
 msgid "A user_public prompt must have an input type."
-msgstr "user_public提示必须有输入类型。"
+msgstr "Um campo util_public tem de ter um tipo de dados."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:253
 msgid "A user_name prompt must have text."
-msgstr "user_name提示必须有文本。"
+msgstr "Um campo nome_util tem de ter texto."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:258
 msgid "A user_email prompt must have text."
-msgstr "user_email提示必须有文本。"
+msgstr "Um campo email_util tem de ter texto."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:263
 msgid "A html prompt must have text."
-msgstr "html提示必须有文本。"
+msgstr "Um campo html tem de ter texto."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:267
 msgid "Prompts must have a type."
-msgstr "提示必须有一个类型。"
+msgstr "Campos têm de ter um tipo."
 
 #: src/Api/Adapter/CollectingFormAdapter.php:279
 msgid "Invalid anonymity type."
-msgstr "无效的匿名类型。"
+msgstr "Tipo de anonimato inválido."
 
 #: src/Api/Representation/CollectingFormRepresentation.php:153
 #: src/Api/Representation/CollectingFormRepresentation.php:160
 #: src/Api/Representation/CollectingFormRepresentation.php:180
 msgid "Please choose one..."
-msgstr "请选择一个 ......"
+msgstr "Escolha um, por favor..."
 
 #: src/Api/Representation/CollectingFormRepresentation.php:260
 msgid "I want to submit anonymously"
-msgstr "我希望匿名提交"
+msgstr "Eu quero submeter anonimamente"
 
 #: src/Api/Representation/CollectingFormRepresentation.php:270
 msgid "Email me my submission"
-msgstr "把我提交的东西电邮给我"
+msgstr "Envie a submissão para o meu email"
 
 #: src/Controller/SiteAdmin/ItemController.php:71
 msgid "Statuses successfully updated"
-msgstr "状态已成功更新"
+msgstr "Estados actualizados com sucesso"
 
 #: src/Controller/SiteAdmin/FormController.php:82
 msgid "Collecting form successfully updated"
-msgstr "收藏表单已成功更新"
+msgstr "Formulário de recolha actualizado com sucesso"
 
 #: src/Controller/SiteAdmin/FormController.php:83
 msgid "Collecting form successfully created"
-msgstr "收藏表单已成功创建"
+msgstr "Formulário de recolha criado com sucesso"
 
 #: src/Controller/SiteAdmin/FormController.php:117
 msgid "Collecting form successfully deleted"
-msgstr "收藏表单已成功删除"
+msgstr "Formulário de recolha eliminado com sucesso"
 
 #: src/Entity/CollectingForm.php:90
 msgid "User sets own anonymity"
-msgstr "用户设置自己的匿名属性"
+msgstr "Utilizador define o anonimato"
 
 #: src/Entity/CollectingForm.php:91
 msgid "“User Public” and “User Name” inputs are publicly visible"
-msgstr "“用户是公开的”和“用户名称”输入是公开可见的"
+msgstr ""
+"Os dados \"Utilizador público\" e \"Nome do utilizador\" serão visíveis "
+"publicamente"
 
 #: src/Entity/CollectingForm.php:92
 msgid "“User Public” and “User Name” inputs are private"
-msgstr "“用户是公开的”和“用户名称”输入是私密的"
+msgstr "Os dados \"Utilizador público\" e \"Nome do utilizador\" serão privados"
 
 #: src/Entity/CollectingPrompt.php:101
 msgid "Item Property"
-msgstr "条目属性"
+msgstr "Propriedade do item"
 
 #: src/Entity/CollectingPrompt.php:102
 msgid "Item Media"
-msgstr "条目媒体"
+msgstr "Media do item"
 
 #: src/Entity/CollectingPrompt.php:103
 msgid "Item Supplementary"
-msgstr "条目增补"
+msgstr "Suplemento do item"
 
 #: src/Entity/CollectingPrompt.php:104
 msgid "User Name"
-msgstr "用户名字"
+msgstr "Nome do utilizador"
 
 #: src/Entity/CollectingPrompt.php:105
 msgid "User Email"
-msgstr "用户电邮"
+msgstr "Email do utilizador"
 
 #: src/Entity/CollectingPrompt.php:106
 msgid "User Private"
-msgstr "用户是私密的"
+msgstr "Utilizador privado"
 
 #: src/Entity/CollectingPrompt.php:107
 msgid "User Public"
-msgstr "用户是公开的"
+msgstr "Utilizador público"
 
 #: src/Entity/CollectingPrompt.php:115
 msgid "Text box (one line)"
-msgstr "文本框（一行）"
+msgstr "Caixa de texto (uma linha)"
 
 #: src/Entity/CollectingPrompt.php:116
 msgid "Text box (multiple line)"
-msgstr "文本框（多行）"
+msgstr "Caixa de texto (múltiplas linhas)"
 
 #: src/Entity/CollectingPrompt.php:117
 msgid "Select menu"
-msgstr "选择菜单"
+msgstr "Menu de selecção"
 
 #: src/Entity/CollectingPrompt.php:118
 msgid "Item resource"
-msgstr "条目资源"
+msgstr "Recurso do item"
 
 #: src/Entity/CollectingPrompt.php:121
 msgid "Numeric timestamp"
-msgstr "数值时间戳"
+msgstr "Numérico tempo"
 
 #: src/Entity/CollectingPrompt.php:122
 msgid "Numeric interval"
-msgstr "数值间隔"
+msgstr "Numérico intervalo"
 
 #: src/Entity/CollectingPrompt.php:123
 msgid "Numeric duration"
-msgstr "数值持续时间"
+msgstr "Numérico duração"
 
 #: src/Entity/CollectingPrompt.php:124
 msgid "Numeric integer"
-msgstr "数字整数"
+msgstr "Numérico inteiro"
 
 #: src/Site/BlockLayout/Collecting.php:18 config/module.config.php:80
 msgid "Collecting"
-msgstr "收藏"
+msgstr "Recolha"
 
 #: src/MediaType/Upload.php:20
 msgid "Upload One"
-msgstr "上传一个"
+msgstr "Upload um"
 
 #: src/MediaType/UploadMultiple.php:20
 msgid "Upload Multiple"
-msgstr "上传多个"
+msgstr "Upload múltiplos"
 
 #: Module.php:155
 msgid "Terms of service"
-msgstr "服务条款"
+msgstr "Termos de serviço"
 
 #: Module.php:156
 msgid ""
 "Enter the terms of service (TOS) for users who submit content to this site."
-msgstr "输入给此网站提交内容的用户的服务条款（TOS）。"
+msgstr ""
+"Indicar os termos de serviço (TDS) para os utilizadores que submetem "
+"conteúdos para este site."
 
 #: Module.php:166
 msgid "Email address"
-msgstr "电子邮件地址"
+msgstr "Endereço de email"
 
 #: Module.php:167
 msgid "Enter an email address from which submission emails will be sent."
-msgstr "输入一个提交电邮会被送达的电子邮件地址。"
+msgstr ""
+"Indicar um endereço de email por onde os emails de submissão serão enviados."
 
 #: config/module.config.php:110
 msgid "Form Information"
-msgstr "表单信息"
+msgstr "Informação do formulário"
 
 #: config/module.config.php:116
 msgid "Collected Items"
-msgstr "收藏的条目"
+msgstr "Itens recolhidos"

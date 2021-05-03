@@ -6,10 +6,10 @@ use Collecting\Api\Representation\CollectingItemRepresentation;
 use Collecting\MediaType\Manager;
 use Omeka\Api\Exception\NotFoundException;
 use Omeka\Permissions\Acl;
-use Zend\Mime\Message as MimeMessage;
-use Zend\Mime\Part as MimePart;
-use Zend\Mvc\Controller\AbstractActionController;
-use Zend\View\Model\ViewModel;
+use Laminas\Mime\Message as MimeMessage;
+use Laminas\Mime\Part as MimePart;
+use Laminas\Mvc\Controller\AbstractActionController;
+use Laminas\View\Model\ViewModel;
 
 class IndexController extends AbstractActionController
 {
@@ -63,6 +63,9 @@ class IndexController extends AbstractActionController
                 : $visibility === 'public';
             $itemData['o:item_set'] = [
                 'o:id' => $cForm->itemSet() ? $cForm->itemSet()->id() : null,
+            ];
+            $itemData['o:site'] = [
+                'o:id' => $this->currentSite()->id(),
             ];
             $response = $this->api($form)
                 ->create('items', $itemData, $this->params()->fromFiles());
@@ -228,6 +231,13 @@ class IndexController extends AbstractActionController
                     $propertyTerm = $prompt->property()->term();
                     $propertyId = $prompt->property()->id();
                     switch ($inputType) {
+                        case 'url':
+                            $itemData[$prompt->property()->term()][] = [
+                                'type' => 'uri',
+                                'property_id' => $prompt->property()->id(),
+                                '@id' => $postedPrompts[$prompt->id()],
+                            ];
+                            break;
                         case 'item':
                         case 'thesaurus':
                             $itemData[$propertyTerm][] = [

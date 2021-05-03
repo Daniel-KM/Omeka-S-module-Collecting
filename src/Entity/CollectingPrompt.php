@@ -122,6 +122,7 @@ class CollectingPrompt extends AbstractEntity
             'textarea' => 'Text box (multiple lines)', // @translate
             'select' => 'Select menu', // @translate
             'item' => 'Item resource', // @translate
+            'url' => 'URL', // @translate
             'value_suggest' => 'Value suggest', // @translate
             'custom_vocab' => 'Custom vocab', // @translate
             'numeric:timestamp' => 'Numeric timestamp', // @translate

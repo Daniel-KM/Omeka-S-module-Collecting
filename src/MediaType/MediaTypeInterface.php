@@ -2,8 +2,8 @@
 namespace Collecting\MediaType;
 
 use Collecting\Api\Representation\CollectingPromptRepresentation;
-use Zend\Form\Form;
-use Zend\View\Renderer\PhpRenderer;
+use Laminas\Form\Form;
+use Laminas\View\Renderer\PhpRenderer;
 
 interface MediaTypeInterface
 {
